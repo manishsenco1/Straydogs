@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help Stray Dogs - Save Lives</title>
+  <meta name="description" content="Support stray dogs by donating, volunteering, or adopting. Join our mission to give them a better life." />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #ff914d;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      background: #333;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.5rem;
+      background: #ff914d;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+    }
+    .paypal-button {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Help Stray Dogs 🐶</h1>
+    <p>Join hands to rescue, feed, and protect stray animals.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#howtohelp">How to Help</a>
+    <a href="#donate">Donate</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Our Mission</h2>
+    <p>Every day, thousands of stray dogs suffer on the streets without food, shelter, or care. Our organization is committed to rescuing, feeding, and rehabilitating these animals. With your support, we aim to give them the life they deserve.</p>
+  </section>
+
+  <section id="howtohelp">
+    <h2>How You Can Help</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>🐾 Adopt</h3>
+        <p>Give a stray dog a loving home and a second chance at life.</p>
+      </div>
+      <div class="card">
+        <h3>💰 Donate</h3>
+        <p>Your donation helps us buy food, vaccines, and medical aid for dogs in need.</p>
+      </div>
+      <div class="card">
+        <h3>🙋 Volunteer</h3>
+        <p>Help us with feeding drives, rescues, and spreading awareness.</p>
+      </div>
+    </div>
+    <a href="#donate" class="btn">Donate Now</a>
+  </section>
+
+  <section id="donate">
+    <h2>Donate Now</h2>
+    <p>We accept donations via PayPal. Every dollar counts and goes directly to the care of stray dogs.</p>
+
+    <!-- PayPal Button -->
+    <div class="paypal-button">
+      <form action="https://www.paypal.com/donate?token=Ngwx-b60OAyr07L2h2n9LquYxn32nKOhl2dVE3YUQjxybnzSx_SgVSzwD2oE7zuhiqUKstY91s8U7tLgUGoBriCWmKa&useraction=commit%2Fdonate%2F&sdkMeta=eyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWxvYmplY3RzLmNvbS9kb25hdGUvc2RrL2RvbmF0ZS1zZGsuanMiLCJhdHRycyI6eyJkYXRhLXVpZCI6InVpZF9wb2t1aW9tbmJnc293cGhpc2F1Z2VianVpb21iamsifX0&targetMeta=eyJ6b2lkVmVyc2lvbiI6IjlfMF81OCIsInRhcmdldCI6IkRPTkFURSIsInNka1ZlcnNpb24iOiIwLjkuMCJ9" method="post" target="_top">
+        <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID_HERE" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" 
+               border="0" name="submit" title="PayPal - The safer, easier way to pay online!" 
+               alt="Donate with PayPal button" />
+        <img alt="" border="0" 
+             src="https://www.paypal.com/en_IN/i/scr/pixel.gif" 
+             width="1" height="1" />
+      </form>
+    </div>
+
+    <a href="#howtohelp" class="btn">See How We Use Funds</a>
+  </section>
+
+  <footer>
+    <p>© 2025 HelpStrayDogs. All rights reserved.</p>
+    <p>Contact: support@helpstraydogs.org | +91 9876543210</p>
+  </footer>
+</body>
+</html>
